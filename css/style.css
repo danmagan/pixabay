@@ -1,0 +1,117 @@
+
+
+.body-imagenes{
+	
+}
+
+.div-form{
+	background:#E59866 ;
+	padding-top:3em;
+	padding-bottom:3em;
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
+.input{
+	display:block;
+}
+
+.formulario{margin-top:1em!important;
+	width:20em;
+	padding:2em;
+	margin:auto;
+	border-radius:5px;
+	background:#fff;
+}
+
+.formulario .submit{
+	margin:auto!important;
+	margin-top:1em!important;
+	display:block;
+	padding:8px 13px 8px 13px;
+	color:white;
+	border-radius:5px;
+	background:#DC7633;
+	transition:0.5s;
+}
+
+.formulario .submit:hover{
+	background:#D35400;
+	transition:0.5s;
+}
+
+.aColor{
+	background:#DC7633;
+	transition:0.5s;
+}
+
+.aColor:hover{
+	background:#D35400;
+	transition:0.5s;
+}
+.sub {
+	font-family: 'Potta One';
+	color:black;
+}
+
+.title{
+	font-family: roboto;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+
+.error{
+	border-color:#d9534f;
+}
+
+.mensaje{
+	font-size: 14px;
+	float:right;
+	color:#d9534f;
+}
+
+img:hover{
+	cursor:pointer;
+}
+.btnImg{
+	width:7em!important;
+	font-family: roboto;
+	font-size: 12px!important;
+	margin:auto;
+	margin-top:1em!important;
+	padding:0.5em!important;
+}
+
+.divIMG{
+	-webkit-box-shadow: 0px 6px 92px -53px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 92px -53px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 92px -53px rgba(0,0,0,0.75);
+}
+
+.abc{
+	background:#DC7633!important;
+	transition:0.5s!important;
+	color:#fff!important;
+	font-size: 16px;
+}
+
+
+
+.abc:hover{
+	background:#D35400!important;
+	transition:0.5s!important;
+	color:#fff!important;
+	cursor:pointer;
+}
+
+#paginacion{
+	margin:auto;
+}
+
+.contenedor-paginador{
+	width:100%;
+	background:#EEEEEE;
+	padding:3em 3em 2em 3em;
+	margin-top:3em;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tailwind.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<title>Buscar Imagenes</title>
+</head>
+<body class="body-imagenes">
+	<div class="div-form">
+		<h2 class="title">Buscar en <span class="sub">PIXABAY</span></h2>
+		<form action="" id="formulario" class="formulario">
+			<div class="mensaje" id="mensaje"></div>
+			<input type="text" placeholder="Buscar..." class="form-control input" id="valor">
+			<input type="submit" value="Buscar" class="submit">
+		</form>
+	</div>
+
+	<div class="container mx-auto mt-10  flex flex-wrap" id="resultado"></div>
+
+<div class="contenedor-paginador">
+	<div id="paginacion" class="container mx-auto mb-10 text-center flex flex-wrap justify-center">
+	</div>
+</div>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
